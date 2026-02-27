@@ -1192,8 +1192,8 @@ footer > div > div > a{
     }
 
     .event_section_second_card>div>img{
-        width:clamp(320px, 40vw, 572px);
-        margin-left: -20%;
+        width:clamp(320px, 40vw, 772px);
+        margin-left: -40%;
         
     }
     .event_section_first_card>div>img{
@@ -1202,22 +1202,7 @@ footer > div > div > a{
         margin-left:2%
     }
 
-    .event_section_first_card>div>h3,
-    .event_section_second_card>div>h3 {
-        font-size: 2.75rem;
-    }
-
-    .event_section_first_card>div>p,
-    .event_section_second_card>div>p {
-        font-size: 1.25rem;
-        margin-bottom: 3rem;
-    }
-
-    .event_section_first_card,
-    .event_section_second_card {
-        gap: 4rem;
-    }
-
+    
     .event_section>h2 {
         width: 55%;
         font-size: 6rem;
@@ -1235,33 +1220,39 @@ footer > div > div > a{
     }
 
     .event_section_first_card>div>.r1{
-        margin-left:20%;
-    }
-    .event_section_second_card>div>.r2{
         margin-left:10%;
     }
+    .event_section_second_card>div>.r2{
+        margin-left:-8%;
+    }
     .event_section_first_card>div>h3{
-        margin-right: 10%;
-        margin-left: 9%;
+        margin-left: 0%;
         margin-top: 0%;
-        font-size: 2.5rem;
+        font-size: 2.75rem;
+        width:50%
 
     }
-    .event_section_second_card>div>h3{
-        margin-right: -10%;
-        margin-top: 25%;
-
-    }
+    
     .event_section_first_card>div>p{
          font-size: 1.2rem;
-         margin-right: 10%;
-         margin-left: 10%;
+         width:50%;
+         margin-left: 0%;
          margin-top: 1.5rem;
 
     }
+    .event_section_second_card>div>button{
+        margin-left: -6%;
+    }
+    .event_section_second_card>div>h3{
+        margin-left: -17%;
+        font-size: 2.75rem;
+        margin-top:10%;
+        width:50%
+    }
     .event_section_second_card>div>p{
          font-size: 1.2rem;
-         margin-right: -10%;
+         width:50%;
+         margin-left: -17%;
 
     }
 
@@ -1277,9 +1268,12 @@ footer > div > div > a{
     }
 
     .email_section h6{
-        font-size: 1.6rem;
+        font-size: 1.65rem;
         max-width: 520px;
-        margin-right: -20%; 
+        margin-right: -18%; 
+        margin-top: 2%;
+        margin-left: 7%;
+
     }
     .email_section > div{
         display: flex;
@@ -1292,15 +1286,12 @@ footer > div > div > a{
         margin-left: 20%;
 
     }
-    .email_section button{
-        margin-right: -20%;
-    }
     footer{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 4rem;
-    margin-right: 12rem;
+    gap: 8rem;
+    margin-right: 33%;
     }
     footer h1{
         font-size: 1.6rem;
@@ -1315,6 +1306,9 @@ footer > div > div > a{
         gap:-3rem;
         width: 150px;
         margin-bottom: 5rem;
+    }
+    .footer_follow_us{
+        margin-left: 1%;
     }
     footer p{
         position: relative;
@@ -1349,7 +1343,8 @@ footer > div > div > a{
     };
     footer .h2{
         font-size: 3rem;
-        margin-top: -5%;
+        margin-top: -2%;
+        margin-right:7%
 
     };
 
@@ -1367,4 +1362,5 @@ footer > div > div > a{
         color: #354463;
         font-size: 1rem;
     }
+    
 }
