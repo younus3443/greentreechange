@@ -945,76 +945,86 @@ footer > div > div > a{
 
 @media screen and (min-width: 1440px){
 
-    .container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1.5rem 10%;
-        height:128px
-    }
+    .container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 10%;
+    height:128px;
+  }
 
-    .header {
-        display: flex;
-        flex-direction: row;  
-        align-items: center;
-        gap: 4rem;
-        padding: 0;
-    }
+  .header{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:4rem;
+  }
 
-    .logo {
-        margin: 0;
-    }
+  .nav {
+    gap:5rem;
+    margin-right:-30%
+  }
+  .logo{
+    margin-left:-15%
+  }
+  .donate-section{
+    margin-right: 5%;
 
-    .nav {
-        display: flex;
-        flex-direction: row;
-        gap: 40px;
-        margin-left: 4rem;
-    }
+  }
+  .stop_climate_change_section{
+  display:flex;
+  flex-direction:row-reverse;
+  align-items:center;
+  justify-content:space-between;
+  padding:8rem 10%;
+  position:relative;
+  background-image:url('./assets/home/annie-spratt-135307-unsplash@2x.png');
+  background-size:cover;
+  background-position:center 8%;
+  min-height:650px;
+  gap:4rem;  
+}
 
-    .nav a{
-        margin:2.8rem
 
-    }
-    .donate-section {
-        position: static;
-        margin: 0;
-    }
+.stop_climate_change_section > h2{
+  font-size:clamp(3.5rem, 5vw, 6rem);
+  flex:1;
+  margin:0;              
+  line-height:1.05;
+  max-width: 30%;
+}
 
-    .donate-button {
-        margin: 0;
-        width: auto;
-    }
-    
-    
-    .stop_climate_change_section{
-        padding-top: 8rem;
-        padding-bottom: 8rem;
-        flex-direction: row-reverse;
-        align-items: flex-start;  
-        background-position: center 15%;
-    }
+.stop_climate_change_section > div{
+  flex:1;
+  display:flex;
+  justify-content:flex-start;
+  flex:0 0 40%;  
+  margin-left:-9%;
+}
 
-    .stop_climate_change_section > h2{
-        font-size: 4.5rem;
-        margin-top: 0;
-        margin-left: -50%;
-        /* width: 50%; */
-        
-    }
+.stop_climate_change_section > div > div{
+  background:white;
+  padding:clamp(2rem, 3vw, 3.5rem);
+  max-width:650px;
+  width:100%;
+  box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
 
-    .stop_climate_change_section > div > div{
-        padding: 3rem;
-        width:35%;
-        margin-left: 2%;
-    }
+.stop_climate_change_section > div > div > h3{
+  font-size:clamp(1.8rem, 3vw, 3rem);
+  line-height:1.3;
+  margin-top:1rem;
+}
 
-    .stop_climate_change_section > div > div > h3{
-        font-size: 2rem;
-    
-    }
+.stop_climate_change_section > div > div > button{
+  margin-top:1rem;
+  padding:0.8rem 3rem;
+}
+  .issue_read{
+    display:inline-block;
+    margin-top:1rem;
+  }
 
-    
     .layout_padding{
         padding: 1.125rem 7.5rem;
 
@@ -1028,62 +1038,64 @@ footer > div > div > a{
         padding-top: 4.938rem;
         height:13rem;
         padding-left: 9%;
+        padding-right: 10%;
     }
 
     .take_action_section > div > h5{
         font-size: 1.75rem;
     }
+    .take_action_section > button{
+        margin-left: 10%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
     .what_we_do_session > section{
     flex-direction: row;
-    gap: 5%;
-    align-items: stretch;
     }
     .what_we_do_session > div > button{
-        margin-left: 2rem;
+        margin-left: 6.2%
     }
     .what_we_do_session > div > p{
-        margin-left: 2rem;
+        margin-left: 6.2%;
+        margin-right: 4%;
+        font-size: clamp(2rem, 8vw,4rem);
     }
-
     .what_we_do_session_card{
-        position: relative;
-        padding-top: 6rem;
-        margin-bottom: 8rem;
-        min-height: 450px;
-    }
+  position:relative;
+  padding-top:clamp(4rem, 6vw, 6rem);
+  margin-bottom:clamp(3rem, 6vw, 8rem);
+  min-height:clamp(320px, 45vw, 470px);
+  max-width:390px; 
+  margin-right:11%;
+ 
+  
+}
+.what_we_do_session_card > img{
+  position:absolute;
+  top:0;
+  left:65%;
+  transform:translate(-50%, -35%);
+  width:clamp(220px, 24vw, 350px); 
+  height:clamp(160px, 18vw, 250px);
+}
+.what_we_do_session_card > div{
+  display:flex;
+  flex-direction:column;
+  padding:clamp(6rem, 10vw, 9rem) clamp(1.5rem, 3vw, 2rem) 2rem;
+}
+.what_we_do_session_card > div > div > h6{
+  font-size:clamp(1.2rem, 2vw, 1.7rem);
+}
+.what_we_do_session_card > div > div > p{
+  font-size:clamp(0.95rem, 1.2vw, 1.2rem);
+}
+.what_we_do_session_card > div > button{
+  margin-top:76%;  
+  margin-left:15%;
+  height:48px;
+}
 
 
-    .what_we_do_session_card > img{
-        position: absolute;
-        top: 1.5rem;
-        left: 4rem;
-        transform: translateY(-40%);
-        width: 90%;
-        
-    }
-    .flex{
-        margin-left: 0rem;
-    }
-
-    .what_we_do_session_card > div{
-        display: flex;
-        flex-direction: column;
-        padding: 9rem 2rem 2rem;
-        
-    }
-    .what_we_do_session_card > div > div > h6{
-        font-size: 1.7rem;
-        margin-top: -30%;
-    }  
-    .what_we_do_session_card > div > div > p{
-        font-size: 1.2rem;
-    }
-    .what_we_do_session_card > div>button{
-        margin-top: 17rem;
-        margin-left: 2rem;
-        height:48px;
-
-    }
     .did_you_know_section_card > div > h6{
         font-size: 2.75rem;
         margin-top: 50%;
@@ -1098,10 +1110,10 @@ footer > div > div > a{
         padding-top: 5rem;
     }
     .did_you_know_section >div >h2{
-        margin-left:15%
+        margin-left:20%;
+        max-width:450px
 
     }
-    
     .did_you_know_section button{
         margin-left: 6%;
     }
@@ -1113,7 +1125,10 @@ footer > div > div > a{
         margin-top: 25%;
 
     }
-
+    .did_you_know_section > section > div {
+        margin-left:-40%;
+        max-width:500px
+    }
     .did_you_know_section_card > div > p{
         font-size: 1.25rem;
         margin-top: 20%;
@@ -1124,20 +1139,39 @@ footer > div > div > a{
         align-items: center;
     }
 
-    .story_section_img_div,
-    .story_section_img_div > img{
-        width: 100%;
+    .story_section_img_div{
+     width:100%;  
+     margin-right:14%    
     }
 
+    .story_section_img_div > img{
+    width:100%;
+
+    margin-right:14%
+    }
     .story_section > div{
-        margin-top: 0;
-        margin-left: 0;
+         position:relative;
+    }
+    .story_section > div >button{
+        position: absolute;
+        margin-top:130%
     }
 
     .story_section > div > div{
-        width: 110%;
-        margin-left:20%;
-        margin-top:25%
+        position:absolute;
+        left:0%;          
+        top:100%;
+        transform:translateY(-50%);
+        width:clamp(380px, 45vw, 850px); 
+        min-height:clamp(320px, 28vw, 400px)
+    }
+    .story_section > div > div > p{
+        font-size: 3rem;
+        
+    }
+    .story_section > div > div > span{
+        position: absolute;
+        bottom:10%
     }
     .stories-read{
         height: 48px;
@@ -1158,12 +1192,14 @@ footer > div > div > a{
     }
 
     .event_section_second_card>div>img{
-        height:576px;
-        width:572px
+        width:clamp(320px, 40vw, 572px);
+        margin-left: -20%;
+        
     }
     .event_section_first_card>div>img{
-        height:576px;
-        width:572px
+        width:100%;
+        height:100%;
+        margin-left:2%
     }
 
     .event_section_first_card>div>h3,
@@ -1183,7 +1219,9 @@ footer > div > div > a{
     }
 
     .event_section>h2 {
-        width: 80%;
+        width: 55%;
+        font-size: 6rem;
+        margin-left:6.5%
     }
 
     .event_section_rel_btn {
