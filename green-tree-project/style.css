@@ -1151,6 +1151,7 @@ footer > div > div > a{
 
     .story_section_img_div > img{
     width:100%;
+    margin-left:0%
     }
     .story_section > div{
          position:relative;
@@ -1165,11 +1166,11 @@ footer > div > div > a{
         left:0%;          
         top:100%;
         transform:translateY(-50%);
-        width:clamp(350px, 45vw, 650px); 
+        width:clamp(350px, 45vw, 600px); 
         min-height:clamp(150px, 28vw, 300px)
     }
     .story_section > div > div > p{
-        font-size: clamp(1.5rem, 4vw, 2.4rem);
+        font-size: clamp(1rem, 4vw, 2.2rem);
         padding-right: 15%;
         
     }
