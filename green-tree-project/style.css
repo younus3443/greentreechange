@@ -1139,10 +1139,7 @@ footer > div > div > a{
         margin-top: 20%;
         margin-left: 8%;
     }
-    .story_section{
-        flex-direction: row-reverse;
-        align-items: center;
-    }
+    
 
     .story_section_img_div{
      width:100%;  
@@ -1150,16 +1147,25 @@ footer > div > div > a{
     }
 
     .story_section_img_div > img{
-    width:100%;
-    margin-left:0%
+        height:50%;
+        width:50%;
+        margin-left:45%
+
     }
-    .story_section > div{
-         position:relative;
-    }
+
     .story_section > div >button{
         position: absolute;
         margin-top:130%
     }
+
+    /* .story_section{
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .story_section > div{
+         position:relative;
+    }
+    
 
     .story_section > div > div{
         position:absolute;
@@ -1168,7 +1174,40 @@ footer > div > div > a{
         transform:translateY(-50%);
         width:clamp(350px, 45vw, 600px); 
         min-height:clamp(150px, 28vw, 300px)
-    }
+    } */
+
+    .story_section{
+    position: relative;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.story_section > div{
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    min-height: 575px;
+}
+.story_section > div >button{
+    position: absolute;
+    bottom:0;
+    left: clamp(-100px, -8vw, -60px);
+    width:180px
+}
+ .story_section > section > button{
+    margin-left:40%
+
+ }
+
+.story_section > div > div{
+    position: absolute;
+    left: -5%;
+    top: 50%;
+    transform: translateY(-40%);
+    width: clamp(300px, 40vw, 660px);
+    /* min-height: auto; */
+}
     .story_section > div > div > p{
         font-size: clamp(1rem, 4vw, 2.2rem);
         padding-right: 15%;
